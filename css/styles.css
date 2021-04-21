@@ -1,0 +1,16 @@
+body {
+  background: rgba(0, 0, 0, 0.6) url("../images/address.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  width: 100%;
+}
+
+.card  {
+  margin-top:180px;
+  background-color: rgba(179, 172, 172, 0.651);
+}
+
