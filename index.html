@@ -5,28 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Address Book</title>
 </head>
 
 <body>
     <div class="container">
         <h1>Codiacs Address Book</h1>
-      <div class="card">
-          <div class="card-title">
-              <h2>Add a contact:</h2>
-          </div>
-          <div class="card-body">
-              <div class="row">
-                  <div class="col-md-6">
-                      <form action="">
-                          
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <div class="card cod">
+            <div class="card-title">
+                <h2>Add a contact:</h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form id="new-contact">
+                            <div class="form-group input">
+                                <label for="new-first-name">First name</label>
+                                <input type="text" class="form-control" id="new-first-name">
+                            </div>
+                            <div class="form-group input">
+                                <label for="new-last-name">Last name</label>
+                                <input type="text" class="form-control" id="new-last-name">
+                            </div>
 
-    </div>
+                            <button type="submit" class="btn bg-success">Add</button>
+                            <button type="reset" class="btn bg-success">Rest</button>
+                        </form>
+
+                        <h2>Contacts:</h2>
+                        <ul id="contact">
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6 contact">
+                        <div id="show-contact">
+                            <h2></h2>
+
+                            <p>First name: <span class="first-name"></span></p>
+                            <p>Last name: <span class="last-name"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
