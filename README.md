@@ -24,4 +24,4 @@ https://github.com/Immagitonga25/address-book.git
 ### Live Site
 View [Live](https://github.com/Immagitonga25/address-book.git)
 ### Licence
-This project is under the  [MIT](License) licence
+This project is under the  [MIT](license) license
