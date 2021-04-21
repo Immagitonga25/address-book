@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
     <title>Address Book</title>
 </head>
 
@@ -23,59 +20,57 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-6">
-                        <form id="contact">
+                        <form id="new-contact">
                             <div class="form-group input">
-                                <label for="name-one">First name</label>
-                                <input type="text" class="form-control" id="name-one">
+                                <label for="new-first-name">First name</label>
+                                <input type="text" class="form-control" id="new-first-name">
                             </div>
                             <div class="form-group input">
-                                <label for="name-two">Last name</label>
-                                <input type="text" class="form-control" id="name-two">
+                                <label for="new-last-name">Last name</label>
+                                <input type="text" class="form-control" id="new-last-name">
                             </div>
-                            <div id="addresses">
+
+                            <div id="new-addresses">
                                 <div class="new-address">
                                     <div class="form-group">
-                                        <label for="street">Street</label>
-                                        <input type="text" class="form-control" id="street">
+                                        <label for="new-street">Street</label>
+                                        <input type="text" class="form-control new-street">
                                     </div>
                                     <div class="form-group">
-                                        <label for="city">City</label>
-                                        <input type="text" class="form-control" id="city">
+                                        <label for="new-city">City</label>
+                                        <input type="text" class="form-control new-city">
                                     </div>
                                     <div class="form-group">
-                                        <label for="country">Country</label>
-                                        <input type="text" class="form-control" id="country">
+                                        <label for="new-county">County</label>
+                                        <input type="text" class="form-control new-county">
                                     </div>
                                 </div>
                             </div>
-                            <span class="btn btn-primary" id="address">Another address</span>
+
                             <button type="submit" class="btn bg-success">Add</button>
-                            <button type="reset" class="btn bg-success">Reset</button>
+                            <button type="reset" class="btn bg-success">Rest</button>
                         </form>
 
                         <h2>Contacts:</h2>
-                        <ul id="contacts">
+                        <ul id="contact">
 
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <h2>Addresses</h2>
+                    <div class="col-md-6 contact">
                         <div id="show-contact">
                             <h2></h2>
 
                             <p>First name: <span class="first-name"></span></p>
                             <p>Last name: <span class="last-name"></span></p>
-                            <p>Addresses:</p>
-                            <ul id="addresses2">
-                            
-                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-    </div>   
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
