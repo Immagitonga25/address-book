@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
     <title>Address Book</title>
 </head>
 
@@ -47,7 +50,7 @@
                             </div>
                             <span class="btn btn-primary" id="address">Another address</span>
                             <button type="submit" class="btn bg-success">Add</button>
-                            <button type="reset" class="btn bg-success">Rest</button>
+                            <button type="reset" class="btn bg-success">Reset</button>
                         </form>
 
                         <h2>Contacts:</h2>
@@ -55,7 +58,8 @@
 
                         </ul>
                     </div>
-                    <div class="col-md-6 contact">
+                    <div class="col-md-6">
+                        <h2>Addresses</h2>
                         <div id="show-contact">
                             <h2></h2>
 
@@ -63,15 +67,15 @@
                             <p>Last name: <span class="last-name"></span></p>
                             <p>Addresses:</p>
                             <ul id="addresses2">
+                            
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
+    </div>   
 </body>
 
 </html>
