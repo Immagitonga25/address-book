@@ -1,3 +1,4 @@
+
 body {
   background: rgba(0, 0, 0, 0.6) url("../images/address.jpg");
   background-repeat: no-repeat;
@@ -9,8 +10,28 @@ body {
   width: 100%;
 }
 
-.card  {
+.card-cod  {
   margin-top:180px;
   background-color: rgba(179, 172, 172, 0.651);
+
 }
 
+input{
+  padding: 15px;
+  display: block;
+  margin-left: 45%;
+}
+
+
+#show-contact {
+    display: none;
+  }
+  
+  .contact {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  
+  .contact:hover {
+    text-decoration: underline;
+  }  
