@@ -10,16 +10,21 @@ body {
   width: 100%;
 }
 
-.card-cod  {
+.card {
   margin-top:180px;
   background-color: rgba(179, 172, 172, 0.651);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 50px;
 
 }
 
 input{
-  padding: 15px;
+  padding: 5px;
   display: block;
   margin-left: 45%;
+  margin-top: 20px;
+  width
 }
 
 
