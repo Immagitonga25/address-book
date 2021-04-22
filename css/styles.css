@@ -9,24 +9,21 @@ body {
   background-blend-mode: darken;
   width: 100%;
 }
-
+.title {
+  color: aliceblue;
+  margin-top: 10px;
+}
 .card {
-  margin-top:100px;
+  margin-top:40px;
   background-color: rgba(179, 172, 172, 0.651);
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 20px;
+  margin-right: 20px;
   
 
 }
-
-input{
-  padding: 5px;
-  display: block;
-  margin-left: 45%;
-  margin-top: 20px;
+.address {
+  text-decoration: underline;
 }
-
-
 #show-contact {
     display: none;
   }
